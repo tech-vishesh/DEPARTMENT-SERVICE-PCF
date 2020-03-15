@@ -21,7 +21,7 @@ pipeline {
                                   passwordVariable: 'PASSWORD']]) {
 
                     bat 'cf login -a http://api.run.pivotal.io -u vishesh.mit2@gmail.com -p Vishesh1989$'
-                    bat 'cf push'
+                    bat 'cf push DEPARTMENT-SERVICE-PCF/manifest.yml'
                 }
             }
 
