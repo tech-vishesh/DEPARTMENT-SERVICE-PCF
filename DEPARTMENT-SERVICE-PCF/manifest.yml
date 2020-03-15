@@ -1,6 +1,6 @@
 applications:
 - name: department-service
-path: target/department-service-pcf.jar
+path: DEPARTMENT-SERVICE-PCF/target/department-service-pcf.jar
 domain: cfapps.io
 memory: 1G
 instances: 1
