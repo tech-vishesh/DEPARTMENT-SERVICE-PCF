@@ -1,5 +1,5 @@
 applications:
-- name: department-service
+- name: department-microservice
 path: DEPARTMENT-SERVICE-PCF/target/department-service-pcf.jar
 domain: cfapps.io
 memory: 1G
