@@ -7,7 +7,7 @@ pipeline {
         stage ('Build') {
             steps {
                 withMaven(maven: 'maven_3_6_3') {
-                    bat 'mvn clean package'
+                    bat 'mvn -f DEPARTMENT-SERVICE-PCF/pom.xml clean package'
                 }
             }
         }
